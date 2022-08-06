@@ -602,12 +602,12 @@ a.btn.btn-link.btn-floating.btn-lg.text-dark.m-1:hover
    
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width: 900px) and (max-width:1024px) {
     .card-footer {
-        margin-left: -71%;
+        margin-left: -63%;
     }
     section.mb-4 {
-        margin-left: -46%;
+        margin-left: -40%;
     }
 }
 
