@@ -401,7 +401,6 @@ button.btn.btn-primary{
 .content-section .content-contact{
     text-align: center;
     background-image:url(../image/background-image-1.jpeg);
-    background-color: #91c483;
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 500px;
@@ -553,8 +552,14 @@ a.btn.btn-link.btn-floating.btn-lg.text-dark.m-1:hover
     color: #e1be64!important;
     opacity:1
 }
-
-@media only screen and ( min-width: 740px) and (max-width: 1023px) {
+@media only screen and (min-width: 740px) and (max-width:900px){
+    
+    .card-footer {
+        margin-left: -65%;
+    }
+    section.mb-4 {
+        margin-left: -33%;
+    }
     div#About{
         padding: 50px 16px 0;
     }
@@ -584,12 +589,6 @@ a.btn.btn-link.btn-floating.btn-lg.text-dark.m-1:hover
     .row-cols-md-3>* {
         width: 50%;
     }
-    .card-footer {
-        margin-left: -70%;
-    }
-    section.mb-4 {
-        margin-left: -38%;
-    }
     .col-md-3 {
         width: 50%;
     }
@@ -600,10 +599,29 @@ a.btn.btn-link.btn-floating.btn-lg.text-dark.m-1:hover
     .nav-link-search{
         display: none
     }
+   
+}
+
+@media only screen and (min-width:992px) {
+    .card-footer {
+        margin-left: -71%;
+    }
+    section.mb-4 {
+        margin-left: -46%;
+    }
+}
+
+@media only screen and ( min-width : 901) and (max-width:1023){
+    .card-footer {
+        margin-left: -70%;
+    }
+    section.mb-4 {
+        margin-left: -38%;
+    }
 }
 
 
-@media only screen and (max-width: 739px) {
+@media only screen and (max-width: 399px) {
     .navbar-nav.bg-dark{
         text-align: center;
     }
@@ -622,7 +640,7 @@ a.btn.btn-link.btn-floating.btn-lg.text-dark.m-1:hover
        width: 100%;
     }
     .card-footer {
-        margin-left: -64%;
+        margin-left: -63%;
     }
     p.p-footer-text1 {
         margin-top: -8%;
